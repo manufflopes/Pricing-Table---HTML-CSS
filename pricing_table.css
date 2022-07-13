@@ -1,5 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
+:root {
+    --yellow: #ffcc29;
+    --blue: #1d539e;
+    --gray: #828799;
+    --page-background: #f9fbfc;
+}
+
 * {
     font-family: 'Open Sans', sans-serif;
+}
+html {
+    height: 100vh;
+}
+body {
+    margin: 0 auto;
+    background-color: #e5e5e5;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #1d539e;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+
+#texto_planos {
+    color: white;
+    line-height: 65px;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#texto_solucoes {
+    color: white;
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f9fbf;
+    height: 50%;
 }
